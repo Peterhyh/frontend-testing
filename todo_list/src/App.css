@@ -1,0 +1,72 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 50vw;
+  background-color: rgb(69, 121, 103);
+  padding: 2rem;
+  border-radius: 1.2rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+input {
+  width: 60%;
+  height: 4rem;
+  font-size: 3rem;
+  border-radius: 0.8rem;
+  border: none;
+  padding: 1.2rem;
+}
+
+button {
+  width: 4rem;
+  height: 4rem;
+  font-size: 3.6rem;
+  border-radius: 0.8rem;
+  border: none;
+  margin-left: 1rem;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  background-color: rgb(85, 39, 39);
+  padding: 2rem;
+  border-radius: 1.2rem;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: antiquewhite;
+  padding: 1rem;
+  border-bottom: 1px solid black;
+  font-size: 2rem;
+}
+
+.item-text {
+  margin-left: 2rem;
+}
+
+.remove-item-button {
+  width: 4rem;
+  height: 4rem;
+  font-size: 3.6rem;
+  border-radius: 0.8rem;
+  border: none;
+  margin-left: 1rem;
+  background-color: rgb(199, 92, 92);
+  color: white;
+}
